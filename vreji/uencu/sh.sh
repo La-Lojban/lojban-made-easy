@@ -49,6 +49,8 @@ shrink ()
 	  -dMonoImageDownsampleType=/Subsample	\
 	  -dMonoImageResolution=$3		\
 	  -sOutputFile="$2"			\
+	  -c "[ /Title (Learn Lojban) /DOCINFO pdfmark" \
+	  -f \
 	  "$1"
 }
 
