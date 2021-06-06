@@ -95,7 +95,7 @@ fi
 if [ ! -z "$3" ]; then
 	res="$3"
 else
-	res="72"
+	res="150"
 fi
 
 shrink "$IFILE" "$OFILE" "$res" || exit $?
